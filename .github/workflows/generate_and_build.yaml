@@ -15,11 +15,11 @@ jobs:
       - name: Generate LaTeX documents
         run: pubquiz make quiz.yaml --no-compile
       - name: Compile LaTeX sheets
-        uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/latex-action@v3
         with:
           root_file: sheets.tex
       - name: Compile LaTeX slides
-        uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/latex-action@v3
         with:
           root_file: slides.tex
       - name: Upload artifact
