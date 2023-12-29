@@ -1,0 +1,29 @@
+name: Generate and compile LaTeX documents
+on: [push]
+jobs:
+  generate_and_compile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v4
+      - name: Set up python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install pubquiz
+        run: pip install pubquiz
+      - name: Generate LaTeX documents
+        run: pubquiz make quiz.yaml --no-compile
+      - name: Compile LaTeX sheets
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: sheets.tex
+      - name: Compile LaTeX slides
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: slides.tex
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: PDF
+          path: "*.pdf"
