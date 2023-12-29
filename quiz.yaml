@@ -1,0 +1,145 @@
+---
+title: MARVEL Pub Quiz
+author: Edward Linscott
+date: 17 Jan 2024
+rounds:
+  - title: Switzerland
+    description: Testing, testing
+    questions:
+      - question: Skiing is a very, very, old activity. The earliest evidence of skiing comes from which country? 
+        answer: Russia
+      - question: In "A Big Day Out", why do Wallace and Gromit go to the moon? 
+        answer: to get some cheese
+      - question: Which 2000 romance saw Johnny Depp star as the love interest of Juliette Binoche? 
+        answer: Chocolat
+      - question: What object has a face, a crown, and a lug? 
+        answer: A watch
+      - question: Which federation was founded in 1904 by representatives from France, Belgium, Denmark, Spain, Sweden and the Netherlands? 
+        answer: FIFA
+      - question: This is an emblem of which organisation?
+        answer: The Red Cross
+        question_pic: "images/red_crystal.png"
+        answer_pic: "images/red_cross_cresent_crystal.png"
+        answer_pic_height: 0.3
+      - question: "questions/swiss_traditions.tex"
+        answer: "skiing on the summer solstice"
+  - title: "``Marvel''"
+    description: One two, one two
+    questions:
+      - question: Of all the films in the MARVEL cinematic universe, which has the highest rating on Rotten Tomatoes 
+        answer: Black Panther; 96\%
+      - question: Something about wonders - The Great Pyramids of Giza, Great Wall of China, The Grand Canyon, The Grand Tetons, The Great Barrier Reef, ...
+        answer: ""
+      - question: A film question Fantastic Beasts and where to find them, The Marvelous Mrs. Maisel, The Wonderful Wizard of Oz, The Grand Budapest Hotel, ...
+        answer: ""
+      - question: In tennis, what feat was most recently achieved by Steffi Graf in 1988 
+        answer: singles calendar Grand Slam
+      - question: Which popular hymn was written by a repentant ex-slave-ship owner? 
+        answer: Amazing Grace
+      - question: Behind only Minecraft, what is the second-best selling video game of all time?
+        answer: Grand Theft Auto V
+      - question: What was the first song from the 1990s to reach a billion streams on Spotify? 
+        answer: Wonderwall (Oasis)
+  - title: "Design and Discovery of Novel Materials"
+    questions:
+      - question: What was the nationality of the first European explorer to discover New Zealand? 
+        answer: Dutch
+      - question: the Pritzker Prize is the most prestigious international prize in what field? 
+        answer: Architecture
+      - question: "``Prophet Song'', ``The Seven Moons of Maali Almeida'', and ``The Promise'' are all prize-winning whats?"
+        answer: Novels -- in fact, they are the three most recent Booker Prize winners
+      - question: gaberdine, lawn, brocade, and french terry are all examples of what? 
+        answer: fabrics
+      - question: In 2023, researchers discovered that the T-Rex had what body part? Its presence would make them appear much less scary. 
+        answer: lips
+      - question: In the context of philosphy, what is ``Materialism''
+        answer: The theory in which physical matter is the only reality and that all being, processes, and phenomena can be explained as manifestations or results of matter
+      - question: What is this famous building? 
+        question_pic: "images/vitra.jpg"
+        answer: Vitra Design Museum (Basel)
+      - question: questions/material_girl.tex
+        answer: "Material Girl (Madonna)"
+  - title: Changing things up
+    questions:
+      - question: "?"
+        answer: "Franc someone? (Francis Drake)"
+      - question: Which 2023 TV show was ridiculed for the appearance of ghosts? 
+        answer: The Crown
+      - question: Film with dollar in the title e.g. Which film pipped The Aviator to best picture in 2004? 
+        answer: Million Dollar Baby -- not a great question
+      - question: "?"
+        answer: "Centurion"
+      - question: What kind of dog is this?
+        question_pic: "images/doge.jpg"
+        answer: a Shiba Inu
+      - question: What major sporting tournament is being held in Germany later this year?
+        answer: The Euros 
+      - question: Who wrote "Atlas Shrugged"? is a novel that is very influential in libertarian and conservative circles, especially in America
+        answer: Ayn Rand
+      - question: What links the answers to all the questions in this round?
+        answer: "currencies"
+  - title: "10 years and counting..."
+    questions:
+      - question: "Which element was the first to be discovered in modern times (first element discovered in modern times (i.e. excluding gold, silver, copper, iron, lead, tin, mercury, carbon, and sulfur)"
+        answer: phosphorus
+  - title: "Numbers"
+    description: "The answers to the questions in this round are the numbers 1 to 8, without repeat"
+    randomize: True
+    questions:
+      - question: "?"
+        answer: "1"
+      - question: "?"
+        answer: "2"
+      - question: "?"
+        answer: "3"
+      - question: "?"
+        answer: "4"
+      - question: "How many many Pirates of the Caribbean films are there?"
+        answer: "5"
+      - question: "?"
+        answer: "6"
+      - question: "?"
+        answer: "7"
+      - question: "?"
+        answer: "8"
+  - title: "Pictures: Sizing up the world"
+    description: "Each of the following maps show the world, but with each country resized based on a different statistic. Identify the statistic for each map. The country with the largest value has been labelled. Use the QR code to see the maps in greater detail."
+    solve_in_own_time: True
+    sheets: "picture_round.tex"
+    questions:
+      - question_pic: "maps/picture_1.png"
+        question: ""
+        answer: "GDP (purchasing-parity-power-adjusted)"
+      - question_pic: "maps/picture_2.png"
+        question: ""
+        answer: "Nobel laureates"
+      - question_pic: "maps/picture_3.png"
+        question: ""
+        answer: "coffee production"
+      - question_pic: "maps/picture_4.png"
+        question: ""
+        answer: "whales killed"
+      - question_pic: "maps/picture_5.png"
+        question: ""
+        answer: "population"
+      - question_pic: "maps/picture_6.png"
+        question: ""
+        answer: "number of Catholics"
+      - question_pic: "maps/picture_7.png"
+        question: ""
+        answer: "number of registered ships"
+      - question_pic: "maps/picture_8.png"
+        question: ""
+        answer: "number of McDonalds"
+  - title: "Puzzles: Connect Four"
+    description: "For each puzzle, work out what connects the four items. Make your answers as specific as possible! Each puzzle is worth two points."
+    solve_in_own_time: True
+    questions:
+      - question: "puzzles/dynasties.tex"
+        answer: "Tang, Song, Han, and Ming: all Chinese dynasties"
+      - question: "puzzles/chess.tex"
+        answer: "Ke8, Kg6, Qe2, and Kc3: British monarchs (Edward VIII, George VI, Elizabeth II, and Charles III)"
+      - question: "puzzles/marks.tex"
+        answer: "benchmark, hallmark, trademark, and landmark"
+      - question: "puzzles/pros_and_cons.tex"
+        answer: "pros and cons"
