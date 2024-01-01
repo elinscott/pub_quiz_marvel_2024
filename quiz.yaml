@@ -21,30 +21,31 @@ rounds:
         question_pic: "images/red_crystal.png"
         answer_pic: "images/red_cross_cresent_crystal.png"
         answer_pic_height: 0.3
-      - question: "questions/swiss_traditions.tex"
-        answer: "skiing on the summer solstice"
+      - question_slide: "manual_slides/swiss_traditions.tex"
+        answer_slide: "manual_slides/swiss_traditions_answer.tex"
   - title: "``Marvel''"
     description: One two, one two
     questions:
-      - question: Of all the films in the MARVEL cinematic universe, which has the highest rating on Rotten Tomatoes 
-        answer: Black Panther; 96\%
-      - question: Something about wonders - The Great Pyramids of Giza, Great Wall of China, The Grand Canyon, The Grand Tetons, The Great Barrier Reef, ...
-        answer: ""
-      - question: A film question Fantastic Beasts and where to find them, The Marvelous Mrs. Maisel, The Wonderful Wizard of Oz, The Grand Budapest Hotel, ...
-        answer: ""
-      - question: In tennis, what feat was most recently achieved by Steffi Graf in 1988 
-        answer: singles calendar Grand Slam
       - question: Which popular hymn was written by a repentant ex-slave-ship owner? 
         answer: Amazing Grace
+      - question: In tennis, what feat was most recently achieved by Steffi Graf in 1988? (Here I am excluding wheelchair disciplines; it has been achieved three times by Diede de Groot since 2021.)
+        answer: a calendar Grand Slam in singles
+      - question: Which US National Park is this?
+        question_pic: "images/grand_tetons.jpg"
+        answer: Grand Teton National Park
+      - question: "According to the US Library of Congress, what is the most watched film of all time?"
+        answer: "The (Wonderful) Wizard of Oz"
       - question: Behind only Minecraft, what is the second-best selling video game of all time?
         answer: Grand Theft Auto V
       - question: What was the first song from the 1990s to reach a billion streams on Spotify? 
         answer: Wonderwall (Oasis)
+      - question: Of all the MARVEL films, which has the lowest rating on Rotten Tomatoes? It was released in 2015.
+        answer: Fantastic Four (a measly 9\%)
   - title: "Design and Discovery of Novel Materials"
     questions:
       - question: What was the nationality of the first European explorer to discover New Zealand? 
         answer: Dutch
-      - question: the Pritzker Prize is the most prestigious international prize in what field? 
+      - question: The Pritzker Prize is the most prestigious international prize in what field? 
         answer: Architecture
       - question: "``Prophet Song'', ``The Seven Moons of Maali Almeida'', and ``The Promise'' are all prize-winning whats?"
         answer: Novels -- in fact, they are the three most recent Booker Prize winners
@@ -63,7 +64,7 @@ rounds:
     questions:
       - question: "?"
         answer: "Franc someone? (Francis Drake)"
-      - question: Which 2023 TV show was ridiculed for the appearance of ghosts? 
+      - question: Which 2023 TV series was widely ridiculed because it featured ghosts? 
         answer: The Crown
       - question: Film with dollar in the title e.g. Which film pipped The Aviator to best picture in 2004? 
         answer: Million Dollar Baby -- not a great question
@@ -74,33 +75,29 @@ rounds:
         answer: a Shiba Inu
       - question: What major sporting tournament is being held in Germany later this year?
         answer: The Euros 
-      - question: Who wrote "Atlas Shrugged"? is a novel that is very influential in libertarian and conservative circles, especially in America
+      - question: Who wrote "Atlas Shrugged"? It is a novel that is very influential in libertarian and conservative circles, especially in America
         answer: Ayn Rand
       - question: What links the answers to all the questions in this round?
         answer: "currencies"
-  - title: "10 years and counting..."
-    questions:
-      - question: "Which element was the first to be discovered in modern times (first element discovered in modern times (i.e. excluding gold, silver, copper, iron, lead, tin, mercury, carbon, and sulfur)"
-        answer: phosphorus
   - title: "Numbers"
     description: "The answers to the questions in this round are the numbers 1 to 8, without repeat"
     randomize: True
     questions:
-      - question: "?"
-        answer: "1"
-      - question: "?"
+      - question: "How many times will Halley's comet transit earth in the 21st century?"
+        answer: "1 (it is visible every 75 or so years, and will next appear in mid-2061)"
+      - question: "Osmium is how many times more dense than lead? It is the densest material nautrally found on earth."
         answer: "2"
-      - question: "?"
+      - question: "How many eyelids (per eye) does a polar bear have?"
         answer: "3"
-      - question: "?"
+      - question: "At 1200m, how many degrees below 100\\textdegree C does water boil? (We are currently at 1050m.)"
         answer: "4"
       - question: "How many many Pirates of the Caribbean films are there?"
         answer: "5"
-      - question: "?"
+      - question: "Rounded to the nearest whole number, how many kilograms are there in 1 stone?"
         answer: "6"
-      - question: "?"
+      - question: "In handball, how many players does one team have (excluding subs)?"
         answer: "7"
-      - question: "?"
+      - question: "From takeoff to splashdown, how many days long was the Apollo 11 mission?"
         answer: "8"
   - title: "Pictures: Sizing up the world"
     description: "Each of the following maps show the world, but with each country resized based on a different statistic. Identify the statistic for each map. The country with the largest value has been labelled. Use the QR code to see the maps in greater detail."
