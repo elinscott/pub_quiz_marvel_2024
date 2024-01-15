@@ -102,7 +102,7 @@ rounds:
         answer: "7"
       - question: "From takeoff to splashdown, how many days long was the Apollo 11 mission?"
         answer: "8"
-  - title: "Pictures: Sizing up the world"
+  - title: "Pictures: Surmise by size"
     description: "Each of the following maps show the world, but with each country resized based on a different statistic. Identify the statistic for each map. The country with the largest value has been labelled. Use the QR code to see the maps in greater detail."
     solve_in_own_time: True
     sheets: "picture_round.tex"
