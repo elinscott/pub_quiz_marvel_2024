@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage[skins]{tcolorbox}
+\usetikzlibrary{external}
+\tikzexternalize
+\begin{document}
+\begin{tikzpicture}
+\path[fill overzoom image=brocade.jpg] (0, 0) rectangle (4, 3);
+\path[fill overzoom image=french_terry.jpg] (5, 0) rectangle (9, 3);
+\path[fill overzoom image=gabardine.jpg] (0, 4) rectangle (4, 7);
+\path[fill overzoom image=lawn.jpg] (5, 4) rectangle (9, 7);
+% \node at (0.25, 8.75) {\Large A};
+% \node at (4.25, 8.75) {\Large B};
+% \node at (0.25, 3.75) {\Large C};
+% \node at (4.25, 3.75) {\Large D};
+\end{tikzpicture}
+\end{document}
+
