@@ -5,24 +5,27 @@ date: 17 Jan 2024
 rounds:
   - title: Switzerland
     questions:
-      - question: In ``A Big Day Out'', why do Wallace and Gromit go to the moon? 
-        answer: to get some cheese
+      - question: The current Swiss banknotes each correspond to a different theme. List the four themes of the 10, 20, 50, and 100 franc notes.
+        answer: manual_slides/swiss_banknotes.tex
       - question: The earliest evidence of skiing comes from which modern-day country? 
+        question_pic: "images/skiing.jpg"
         answer: Russia
-        answer_pic: "images/skiing.jpg"
+      - question: Which romance from 2000 saw Johnny Depp star as the love interest of Juliette Binoche? 
+        answer_pic: "images/chocolat.jpg"
+        answer: Chocolat
       - question: questions/fruit_neutrality.tex
         answer_slide: "manual_slides/fruit_neutrality_answer.tex"
       - question: This is an emblem of which organisation?
-        answer: The Red Cross -- the ``Red Crystal'' is an alternative emblem used when both the cross and cresent are religiously insensitive
+        answer: The Red Cross -- the ``Red Crystal'' is an alternative emblem used in contexts when both the cross and cresent would be religiously insensitive
         question_pic: "images/red_crystal.png"
         answer_pic: "images/red_cross_cresent_crystal.png"
         answer_pic_height: 0.3
-      - question: Which 2000 romance saw Johnny Depp star as the love interest of Juliette Binoche? 
-        answer: Chocolat
+      - question: In ``A Grand Day Out'', why do Wallace and Gromit go to the moon? 
+        answer_pic: "images/grand_day_out.jpg"
+        answer: to get some cheese
       - question: What object has a face, a crown, and a lug? 
         answer: a watch
-      - question: Which organisation was founded in 1904 by representatives from France, Belgium, Denmark, Spain, Sweden and the Netherlands? In 2015 it was mired in a corruption scandal.
-        answer: FIFA
+        answer_pic: images/watch.png
       - question_slide: "manual_slides/swiss_traditions.tex"
         answer_slide: "manual_slides/swiss_traditions_answer.tex"
   - title: "``Marvel''"
@@ -43,22 +46,27 @@ rounds:
       - question: What was the first song from the 1990s to reach a billion streams on Spotify? 
         answer: Wonderwall
       - question: Of all the MARVEL films, which has the lowest rating on Rotten Tomatoes? It was released in 2015.
+        answer_pic: "images/fantastic_four.jpeg"
         answer: Fantastic Four (a measly 9\%)
   - title: "Design and Discovery of Novel Materials"
     questions:
-      - question: What was the nationality of the first European explorer to discover New Zealand? 
-        answer: Dutch
+      - question: What is matter?
+        question_pic: "images/matter.png"
+        question_pic_height: 0.25
+        answer: a connectivity standard for smart home and IoT devices
       - question: The Pritzker Prize is the most prestigious international prize in what field? 
         answer: Architecture
       - question: "``Prophet Song'', ``The Seven Moons of Maali Almeida'', and ``The Promise'' are all prize-winning whats?"
         answer: Novels -- in fact, they are the three most recent Booker Prize winners
+      - question: What car is this?
+        question_pic: "images/land_rover_discovery.jpg"
+        question_pic_credit: "Wikimedia Commons"
+        answer: Land Rover Discovery
       - question: gabardine, lawn, brocade, and french terry are all examples of what? 
         answer: fabrics
         answer_pic: "images/fabrics-figure0.pdf"
       - question: In 2023, researchers discovered that the T-Rex had what body part? Its presence would make them appear much less scary. 
         answer: lips
-      - question: In the context of philosophy, what is ``Materialism''
-        answer: The theory in which physical matter is the only reality and that all being, processes, and phenomena can be explained as manifestations or results of matter
       - question: "``Die Neue Sammlung'', in Munich, is the largest what in the world? (It translates to ``The New Collection'')"
         answer: design museum
       - question: questions/material_girl.tex
