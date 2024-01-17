@@ -149,7 +149,7 @@ rounds:
       - question: "puzzles/dynasties.tex"
         answer: "Tang, Song, Han, and Ming: all Chinese dynasties"
       - question: "puzzles/pros_and_cons.tex"
-        answer: "pros and cons"
+        answer_slide: "manual_slides/pros_and_cons_answers.tex"
       - question: "puzzles/chess.tex"
         answer: "Ke8, Kg6, Qe2, and Kc3: British monarchs (Edward VIII, George VI, Elizabeth II, and Charles III)"
       - question: "puzzles/flag_reviews.tex"
