@@ -34,8 +34,10 @@ rounds:
         answer: Amazing Grace
       - question: Behind only Minecraft, what is the second-best selling video game of all time?
         answer: Grand Theft Auto V
-      - question: In tennis, what feat was most recently achieved by Steffi Graf in 1988? (Here I am excluding wheelchair disciplines; it has been achieved three times by Diede de Groot since 2021.)
-        answer: a calendar Grand Slam in singles
+        answer_pic: images/gtav.png
+      - question: In tennis, what feat has only been achieved once, by Steffi Graf in 1988? (Here I am excluding wheelchair disciplines)
+        answer: a calendar Golden Grand Slam
+        answer_pic: images/steffi_graf.png
       - question: "According to the US Library of Congress, what is the most watched film of all time?"
         answer: "The (Wonderful) Wizard of Oz"
       - question: Which US National Park is this?
@@ -54,8 +56,6 @@ rounds:
         question_pic: "images/matter.png"
         question_pic_height: 0.25
         answer: a connectivity standard for smart home and IoT devices
-      - question: The Pritzker Prize is the most prestigious international prize in what field? 
-        answer: Architecture
       - question: "``Prophet Song'', ``The Seven Moons of Maali Almeida'', and ``The Promise'' are all prize-winning whats?"
         answer: Novels -- in fact, they are the three most recent Booker Prize winners
       - question: What car is this?
@@ -65,6 +65,8 @@ rounds:
       - question: gabardine, lawn, brocade, and french terry are all examples of what? 
         answer: fabrics
         answer_pic: "images/fabrics-figure0.pdf"
+      - question: The Pritzker Prize is the most prestigious international prize in what field? 
+        answer: Architecture
       - question: In 2023, researchers discovered that the T-Rex had what body part? Its presence would make them appear much less scary. 
         answer: lips
       - question: "``Die Neue Sammlung'', in Munich, is the largest what in the world? (It translates to ``The New Collection'')"
