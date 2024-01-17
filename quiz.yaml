@@ -38,8 +38,6 @@ rounds:
       - question: In tennis, what feat has only been achieved once, by Steffi Graf in 1988? (Here I am excluding wheelchair disciplines)
         answer: a calendar Golden Grand Slam
         answer_pic: images/steffi_graf.png
-      - question: "According to the US Library of Congress, what is the most watched film of all time?"
-        answer: "The (Wonderful) Wizard of Oz"
       - question: Which US National Park is this?
         question_pic: "images/grand_tetons.jpg"
         answer: Grand Teton National Park
@@ -50,6 +48,8 @@ rounds:
       - question: Of all the MARVEL films, which has the lowest rating on Rotten Tomatoes? It was released in 2015.
         answer_pic: "images/fantastic_four.jpeg"
         answer: Fantastic Four (a measly 9\%)
+      - question: Name the seven wonders of the ancient world
+        answer: The Colossus of Rhodes, the Great Pyramid of Giza, the Hanging Gardens of Babylon, the Statue of Zeus at Olympia, the Temple of Artemis at Ephesus, the Mausoleum at Halicarnassus, and the Lighthouse of Alexandria
   - title: "Design and Discovery of Novel Materials"
     questions:
       - question: What is matter?
@@ -57,7 +57,7 @@ rounds:
         question_pic_height: 0.25
         answer: a connectivity standard for smart home and IoT devices
       - question: "``Prophet Song'', ``The Seven Moons of Maali Almeida'', and ``The Promise'' are all prize-winning whats?"
-        answer: Novels -- in fact, they are the three most recent Booker Prize winners
+        answer: manual_slides/bookers.tex
       - question: What car is this?
         question_pic: "images/land_rover_discovery.jpg"
         question_pic_credit: "Wikimedia Commons"
@@ -67,9 +67,10 @@ rounds:
         answer_pic: "images/fabrics-figure0.pdf"
       - question: The Pritzker Prize is the most prestigious international prize in what field? 
         answer: Architecture
-      - question: In 2023, researchers discovered that the T-Rex had what body part? Its presence would make them appear much less scary. 
-        answer: lips
+      - question: What parent company owns (among other things) DC Comics, HBO, CNN, and Eurosport?
+        answer: Warner Bros. Discovery
       - question: "``Die Neue Sammlung'', in Munich, is the largest what in the world? (It translates to ``The New Collection'')"
+        answer_pic: images/die_neue_sammlung.jpg
         answer: design museum
       - question: questions/material_girl.tex
         answer: Material Girl
